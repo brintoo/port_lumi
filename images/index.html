@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>portfolio</title>
+    <!-- CSS -->
+    <link rel="stylesheet" href="./style.css">
+    <!-- font awesome CDN link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Edu+AU+VIC+WA+NT+Guides:wght@400..700&family=Inconsolata:wght@200..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Noto+Sans+JP:wght@100..900&family=Playwrite+DE+Grund:wght@100..400&family=Qwitcher+Grypen:wght@400;700&family=Sixtyfour+Convergence&family=Updock&display=swap"
+        rel="stylesheet">
+        <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+      />
+      <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+
+<body>
+    <div id="container">
+        <!-- navbar -->
+        <nav>
+            <!-- logo -->
+            <img class="logo" src="./images.png" alt="no images">
+            <!-- link -->
+            <ul>
+                <li class="listitem"><a class="links" href="#home">Home</a></li>
+                <li class="listitem"><a class="links" href="#about">About</a></li>
+                <li class="listitem"><a class="links" href="#skills">skills</a></li>
+                <li class="listitem"><a class="links" href="#contact">contact</a></li>
+            </ul>
+        </nav>
+        <!-- home -->
+        <section id="home">
+            <div class="home-content">
+                <h1 class="animate__animated animate__backInDown" id="user-name">I'm <span id="lname"> Brinto</span></h1>
+                <p id="user-details">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor, <br>quasi nulla
+                    temporibus itaque dolorem, numquam unde, adipisci nisi </p>
+                <a id="download" download href="./1131w-xkDELtpQH94.webp">download cv</a>
+            </div>
+            <div class="home-img">
+                <!-- shape -->
+                <img id="shape" class="image" src="./bg-final.png" alt="shape">
+                <!-- girl -->
+                <img id="girl" class="image" src="./boy-removebg-preview.png" alt="girl">
+            </div>
+        </section>
+        <!-- about -->
+        <section id="about">
+            <div class="sectionhead">
+                <h2 class="mainhead">About me</h2>
+                <span class="subhead">introduction</span>
+            </div>
+            <div class="aboutbody">
+                <div data-aos="flip-left" class="aboutimage">
+                    <img width="500px"
+                        src="./pngtree-illustration-of-a-person-taking-break-from-technology-cartoon-illustration-isolated-png-image_12731224.png"
+                        alt="no image">
+                </div>
+                <div class="aboutcontent">
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Libero laudantium ea voluptatum
+                        inventore tempore sit molestiae excepturi dolorum, porro minima placeat repellat impedit
+                        doloremque nemo soluta pariatur amet quasi est?
+                    </p>
+                    <div class="information">
+                        <div class="infobox">
+                            <i class="fa-solid fa-user"></i>
+                            <span>Brinto varghese</span>
+                        </div>
+                        <div class="infobox">
+                            <i class="fa-solid fa-phone"></i>
+                            <span>873737728</span>
+                        </div>
+                        <div class="infobox">
+                            <i class="fa-solid fa-envelope"></i>
+                            <span>email</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- skills -->
+        <section id="skills">
+            <div class="sectionhead">
+                <h2 class="mainhead">skills</h2>
+                <span class="subhead">My skills</span>
+            </div>
+            <div class="skillconents">
+                <div class="prograssbar">
+                    <!-- progressbar -->
+                    <div class="bars">
+                        <h3 class="barhead">HTML</h3>
+                        <span class="barpercentage">89%</span>
+                        <div class="basebar"></div>
+                        <div data-aos="fade-right" class="htmlbar basebar"></div>
+                    </div>
+                    <div class="bars">
+                        <h3 class="barhead">css</h3>
+                        <span class="barpercentage">79%</span>
+                        <div class="basebar"></div>
+                        <div data-aos="fade-right" class="cssbar basebar"></div>
+                    </div>
+                    <div class="bars">
+                        <h3 class="barhead">JS</h3>
+                        <span class="barpercentage">85%</span>
+                        <div class="basebar"></div>
+                        <div data-aos="fade-right" class="jsbar basebar"></div>
+                    </div>
+                    <div class="bars">
+                        <h3 class="barhead">REACT</h3>
+                        <span class="barpercentage">80%</span>
+                        <div class="basebar"></div>
+                        <div  data-aos="fade-right" class="reactbar basebar"></div>
+                    </div>
+                </div>
+                <div data-aos="flip-left" class="skillimage">
+                    <img src="./skills.webp" alt="no images">
+                </div>
+            </div>
+        </section>
+        <!-- contact -->
+        <section id="contact">
+            <div class="sectionHead">
+                <div class="sectionhead">
+                    <h2 class="mainHead">Contact</h2>
+                    <span class="subHead">My Contacts</span>
+                </div>
+                <div class="iconCollections">
+                    <!-- linkedin -->
+                    <div class="icon">
+                        <a href="https://www.linkedin.com/public-profile/settings?trk=d_flagship3_profile_self_view_public_profile
+                        
+                        " target="_blank">
+                            <i class="fa-brands fa-linkedin brands"></i>
+                        </a>
+                    </div>
+                    <!-- github -->
+                    <div class="icon">
+                        <a href="https://github.com/" target="_blank">
+                            <i class="fa-brands fa-github brands"></i>
+                        </a>
+                    </div>
+                    <!-- facebook -->
+                    <div class="icon">
+                        <a href="https://www.facebook.com/" target="_blank">
+                            <i class="fa-brands fa-facebook brands"></i>
+                        </a>
+                    </div>
+                    <!-- twitter -->
+                    <div class="icon">
+                        <a href="https://x.com/?lang=en&failedScript=vendor" target="_blank">
+                            <i class="fa-brands fa-twitter brands"></i>
+                        </a>
+                    </div>
+                    <!-- whatsapp -->
+                    <div class="icon">
+                        <a href="https://web.whatsapp.com/" target="_blank">
+                            <i class="fa-brands fa-whatsapp brands"></i>
+                        </a>
+                    </div>
+                    <!-- instagram -->
+                    <div class="icon">
+                        <a href="https://www.instagram.com/" target="_blank">
+                            <i class="fa-brands fa-square-instagram brands"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- footer -->
+        <footer>
+            <p id="copyright">&copy; My portfolio website-june 2024 All RightReserved to &reg; Nikhil Krishna</p>
+            <div class="icon uparrow">
+                <a href="#container">
+                    <i class="fa-solid fa-angle-up brands"></i>
+                </a>
+            </div>
+        </footer>
+    </div>
+</body>
+<!-- AOS animation -->
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+    AOS.init();
+  </script>
+</html>
